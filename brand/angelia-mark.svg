@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <title>Angelia</title>
-<desc>Alpha of Angelia (ἀγγελία, "message, news"): a capital A whose crossbar is a version-bump chevron, with message waves rising like a wing from its apex.</desc>
-<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M140,430 L240,190 L340,430" stroke="#F3EEE4" stroke-width="40"/>
-  <path d="M192,352 L240,314 L288,352" stroke="#E9B14C" stroke-width="26"/>
-  <path d="M250.8,128.9 A62,62 0 0 1 299.9,174.0" stroke="#E9B14C" stroke-width="18"/>
-  <path d="M257.4,91.5 A100,100 0 0 1 336.6,164.1" stroke="#E9B14C" stroke-width="16" opacity="0.8"/>
-  <path d="M264.0,54.1 A138,138 0 0 1 373.3,154.3" stroke="#E9B14C" stroke-width="14" opacity="0.6"/>
-</g>
+<desc>The A of Angelia drawn as a rising peak, with a herald's wing of three gold feathers as its crossbar and a spark at the apex.</desc>
+<defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#1E1B4B"/><stop offset="1" stop-color="#4338CA"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<path d="M112 412 L256 108 L400 412" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M168 316 C246 318 330 298 418 236 C374 306 286 338 180 342 Z" fill="#F59E0B"/>
+<path d="M184 272 C254 270 330 246 404 186 C366 254 292 290 196 298 Z" fill="#FBBF24"/>
+<path d="M202 228 C258 222 318 196 380 140 C352 206 296 240 214 254 Z" fill="#FDE68A"/>
+<path d="M256 20 L266 48 L294 58 L266 68 L256 96 L246 68 L218 58 L246 48 Z" fill="#FDE68A"/>
 </svg>
