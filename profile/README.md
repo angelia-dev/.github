@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/angelia-dev/.github/main/brand/angelia-logo-500.png" alt="Angelia logo: a capital A with a version-bump chevron and message waves" width="160"></p>
+
 # Angelia
 
 > *Angelia* (ἀγγελία): ancient Greek for "message, news".
