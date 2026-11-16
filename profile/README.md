@@ -15,6 +15,8 @@ detect  ──▶  normalize  ──▶  deliver
 
 What to *do* with a new version (open a PR, run tests, ask an agent) stays with the consumer. Angelia's job is to tell it, reliably and once.
 
+**📖 Documentation: [angelia-dev.github.io/docs](https://angelia-dev.github.io/docs/)**: [quickstart](https://angelia-dev.github.io/docs/get-started/quickstart/), [watch sources](https://angelia-dev.github.io/docs/sources/), [notifications](https://angelia-dev.github.io/docs/notify/), [recipes](https://angelia-dev.github.io/docs/recipes/) and narrated [video tours](https://angelia-dev.github.io/docs/get-started/videos/).
+
 ## Repositories
 
 | Repository | Purpose |
@@ -23,10 +25,10 @@ What to *do* with a new version (open a PR, run tests, ask an agent) stays with 
 | [spec](https://github.com/angelia-dev/spec) | Event schema (CloudEvents types, JSON Schema) and OpenAPI specification |
 | [actions](https://github.com/angelia-dev/actions) | GitHub Actions to consume Angelia release events in workflows |
 | [helm-charts](https://github.com/angelia-dev/helm-charts) | Helm charts to deploy Angelia on Kubernetes |
-| [docs](https://github.com/angelia-dev/docs) | Website and documentation |
+| [docs](https://github.com/angelia-dev/docs) | Website and documentation, published at [angelia-dev.github.io/docs](https://angelia-dev.github.io/docs/) |
 
 ## Status
 
-**Pre-alpha / Phase 0.** Nothing is usable yet; we are validating the design. Ideas and feedback are welcome in [Discussions](https://github.com/angelia-dev/angelia/discussions).
+**Pre-1.0, installable.** [v0.2.0](https://github.com/angelia-dev/angelia/releases/tag/v0.2.0) ships push delivery (webhooks, GitHub dispatch, chat), the REST and pull APIs, SSE, MCP and Postgres. Start with the [quickstart](https://angelia-dev.github.io/docs/get-started/quickstart/). Ideas and feedback are welcome in [Discussions](https://github.com/angelia-dev/angelia/discussions).
 
 Licensed under Apache-2.0.
